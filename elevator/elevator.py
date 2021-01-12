@@ -28,7 +28,6 @@ class deque :
             new_node.llink = None
         else :
 
-        print()
     
     def pushR(self) -> None :
         print()
