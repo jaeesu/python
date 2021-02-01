@@ -10,6 +10,7 @@ class get_message:
 
     def __init__(self):
         self.url=""
+<<<<<<< HEAD
         self.username=""
         self.endpoint=""
         self.response = None
@@ -26,3 +27,16 @@ class get_message:
 
 
 
+=======
+        self.endpoint=""
+        self.response = None
+
+    def commit_activity(self, username, repos) :
+        self.endpoint = "repos/"+username+"/"+repos+"/stats/commit_activity"
+        return self
+
+    def repos(self, username) :
+        self.endpoint = "users/"+username+"/repos"
+        return self
+
+>>>>>>> 11bad59436e9438bb04e962bca0248aec7450538
