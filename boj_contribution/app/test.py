@@ -4,4 +4,4 @@ from service.SettingResponse import send_request, Response_repos, Response_commi
 if __name__=='__main__':
     h_req = get_message()
     h_req.repos("jaeesu")
-    Response_commit_activity(h_req)
+    print(Response_commit_activity(h_req))
